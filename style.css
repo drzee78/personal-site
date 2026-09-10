@@ -29,6 +29,15 @@ body {
   text-align: center;
 }
 
+.avatar {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid var(--accent);
+}
+
 .hero h1 {
   margin: 0 0 0.5rem;
   font-size: 2.5rem;
@@ -80,6 +89,23 @@ h2 {
 
 .link-list a:hover {
   text-decoration: underline;
+}
+
+.tag-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag-list li {
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--muted);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: var(--text);
 }
 
 footer {
