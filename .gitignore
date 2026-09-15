@@ -1,0 +1,8 @@
+# Unrelated local projects
+learn-python/
+
+# macOS
+.DS_Store
+
+# Editor/tool internals
+.claude/
